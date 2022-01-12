@@ -1,0 +1,566 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A18ED8521071157002BDEA7 /* About.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A18ED8321071157002BDEA7 /* About.storyboard */; };
+		4A18ED87210711B4002BDEA7 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A18ED86210711B4002BDEA7 /* Discover.storyboard */; };
+		4A26C84520EE1245009B3BE4 /* RoundedTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26C84420EE1245009B3BE4 /* RoundedTextField.swift */; };
+		4A26C84720EE141A009B3BE4 /* NewCafeController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A26C84620EE141A009B3BE4 /* NewCafeController.swift */; };
+		4A3F49FD20FD26470051BA91 /* Onboarding.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A3F49FC20FD26470051BA91 /* Onboarding.storyboard */; };
+		4A3F49FF20FD2F0F0051BA91 /* WalkthroughContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F49FE20FD2F0F0051BA91 /* WalkthroughContentViewController.swift */; };
+		4A3F4A0120FD30CA0051BA91 /* WalkthroughPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F4A0020FD30CA0051BA91 /* WalkthroughPageViewController.swift */; };
+		4A3F4A0320FD34500051BA91 /* WalkthroughViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A3F4A0220FD34500051BA91 /* WalkthroughViewController.swift */; };
+		4A42203A20C7EB5900CFBF02 /* Cafe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A42203920C7EB5900CFBF02 /* Cafe.swift */; };
+		4A47FB1120CD94DE00D50706 /* Rubik-BlackItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0620CD94DE00D50706 /* Rubik-BlackItalic.ttf */; };
+		4A47FB1220CD94DE00D50706 /* Rubik-MediumItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0720CD94DE00D50706 /* Rubik-MediumItalic.ttf */; };
+		4A47FB1320CD94DE00D50706 /* Rubik-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0820CD94DE00D50706 /* Rubik-BoldItalic.ttf */; };
+		4A47FB1420CD94DE00D50706 /* Rubik-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0920CD94DE00D50706 /* Rubik-Light.ttf */; };
+		4A47FB1520CD94DE00D50706 /* Rubik-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0A20CD94DE00D50706 /* Rubik-Regular.ttf */; };
+		4A47FB1620CD94DE00D50706 /* Rubik-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0B20CD94DE00D50706 /* Rubik-LightItalic.ttf */; };
+		4A47FB1720CD94DE00D50706 /* OFL.txt in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0C20CD94DE00D50706 /* OFL.txt */; };
+		4A47FB1820CD94DE00D50706 /* Rubik-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0D20CD94DE00D50706 /* Rubik-Bold.ttf */; };
+		4A47FB1920CD94DE00D50706 /* Rubik-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0E20CD94DE00D50706 /* Rubik-Black.ttf */; };
+		4A47FB1A20CD94DE00D50706 /* Rubik-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB0F20CD94DE00D50706 /* Rubik-Italic.ttf */; };
+		4A47FB1B20CD94DE00D50706 /* Rubik-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 4A47FB1020CD94DE00D50706 /* Rubik-Medium.ttf */; };
+		4A47FB1D20CD9C1D00D50706 /* CafeDetailHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47FB1C20CD9C1D00D50706 /* CafeDetailHeaderView.swift */; };
+		4A47FB1F20CDA3FD00D50706 /* CafeDetailIconTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47FB1E20CDA3FC00D50706 /* CafeDetailIconTextCell.swift */; };
+		4A47FB2120CDA57C00D50706 /* CafeDetailTextCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A47FB2020CDA57C00D50706 /* CafeDetailTextCell.swift */; };
+		4A5C021820F3E3030082984F /* Cafegram2EN.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A5C021620F3E3030082984F /* Cafegram2EN.xcdatamodeld */; };
+		4A6A5AA220E4CD7E009DB51C /* ReviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A6A5AA120E4CD7E009DB51C /* ReviewViewController.swift */; };
+		4A938C68211A0BB5006AEECF /* AboutTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A938C67211A0BB5006AEECF /* AboutTableViewController.swift */; };
+		4A938C6A211A0FEE006AEECF /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A938C69211A0FEE006AEECF /* WebViewController.swift */; };
+		4A99541620C004EA00B377A9 /* CafeDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A99541520C004EA00B377A9 /* CafeDetailViewController.swift */; };
+		4A9C741020DEADC80010F402 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A9C740F20DEADC80010F402 /* MapKit.framework */; };
+		4A9C741220DEB08B0010F402 /* CafeDetailSeparatorCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C741120DEB08B0010F402 /* CafeDetailSeparatorCell.swift */; };
+		4A9C741420DEB1240010F402 /* CafeDetailMapCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C741320DEB1240010F402 /* CafeDetailMapCell.swift */; };
+		4A9C741620DEB6B70010F402 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A9C741520DEB6B70010F402 /* MapViewController.swift */; };
+		4ABA4C1820D59329007D6148 /* UIColor+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA4C1720D59329007D6148 /* UIColor+Ext.swift */; };
+		4ABA4C1A20D5954C007D6148 /* UINavigationController+Ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ABA4C1920D5954C007D6148 /* UINavigationController+Ext.swift */; };
+		4ADC339420AC03BB0083ACB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC339320AC03BB0083ACB9 /* AppDelegate.swift */; };
+		4ADC339920AC03BB0083ACB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC339720AC03BB0083ACB9 /* Main.storyboard */; };
+		4ADC339B20AC03BB0083ACB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC339A20AC03BB0083ACB9 /* Assets.xcassets */; };
+		4ADC339E20AC03BB0083ACB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4ADC339C20AC03BB0083ACB9 /* LaunchScreen.storyboard */; };
+		4ADC33A620AC050B0083ACB9 /* CafeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC33A520AC050B0083ACB9 /* CafeTableViewController.swift */; };
+		4ADC33A820AC0B1C0083ACB9 /* CafeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4ADC33A720AC0B1C0083ACB9 /* CafeTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4A18ED8421071157002BDEA7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Cafegram2EN/Storyboard/Base.lproj/About.storyboard; sourceTree = "<group>"; };
+		4A18ED86210711B4002BDEA7 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = "<group>"; };
+		4A26C84420EE1245009B3BE4 /* RoundedTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedTextField.swift; sourceTree = "<group>"; };
+		4A26C84620EE141A009B3BE4 /* NewCafeController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewCafeController.swift; sourceTree = "<group>"; };
+		4A3F49FC20FD26470051BA91 /* Onboarding.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Onboarding.storyboard; sourceTree = "<group>"; };
+		4A3F49FE20FD2F0F0051BA91 /* WalkthroughContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughContentViewController.swift; sourceTree = "<group>"; };
+		4A3F4A0020FD30CA0051BA91 /* WalkthroughPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughPageViewController.swift; sourceTree = "<group>"; };
+		4A3F4A0220FD34500051BA91 /* WalkthroughViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalkthroughViewController.swift; sourceTree = "<group>"; };
+		4A42203920C7EB5900CFBF02 /* Cafe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cafe.swift; sourceTree = "<group>"; };
+		4A47FB0620CD94DE00D50706 /* Rubik-BlackItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BlackItalic.ttf"; sourceTree = "<group>"; };
+		4A47FB0720CD94DE00D50706 /* Rubik-MediumItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-MediumItalic.ttf"; sourceTree = "<group>"; };
+		4A47FB0820CD94DE00D50706 /* Rubik-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-BoldItalic.ttf"; sourceTree = "<group>"; };
+		4A47FB0920CD94DE00D50706 /* Rubik-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Light.ttf"; sourceTree = "<group>"; };
+		4A47FB0A20CD94DE00D50706 /* Rubik-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Regular.ttf"; sourceTree = "<group>"; };
+		4A47FB0B20CD94DE00D50706 /* Rubik-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-LightItalic.ttf"; sourceTree = "<group>"; };
+		4A47FB0C20CD94DE00D50706 /* OFL.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = OFL.txt; sourceTree = "<group>"; };
+		4A47FB0D20CD94DE00D50706 /* Rubik-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Bold.ttf"; sourceTree = "<group>"; };
+		4A47FB0E20CD94DE00D50706 /* Rubik-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Black.ttf"; sourceTree = "<group>"; };
+		4A47FB0F20CD94DE00D50706 /* Rubik-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Italic.ttf"; sourceTree = "<group>"; };
+		4A47FB1020CD94DE00D50706 /* Rubik-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Rubik-Medium.ttf"; sourceTree = "<group>"; };
+		4A47FB1C20CD9C1D00D50706 /* CafeDetailHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailHeaderView.swift; sourceTree = "<group>"; };
+		4A47FB1E20CDA3FC00D50706 /* CafeDetailIconTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailIconTextCell.swift; sourceTree = "<group>"; };
+		4A47FB2020CDA57C00D50706 /* CafeDetailTextCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailTextCell.swift; sourceTree = "<group>"; };
+		4A5C021720F3E3030082984F /* Cafegram2EN.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Cafegram2EN.xcdatamodel; sourceTree = "<group>"; };
+		4A6A5AA120E4CD7E009DB51C /* ReviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewViewController.swift; sourceTree = "<group>"; };
+		4A938C67211A0BB5006AEECF /* AboutTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutTableViewController.swift; sourceTree = "<group>"; };
+		4A938C69211A0FEE006AEECF /* WebViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		4A99541520C004EA00B377A9 /* CafeDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailViewController.swift; sourceTree = "<group>"; };
+		4A9C740F20DEADC80010F402 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		4A9C741120DEB08B0010F402 /* CafeDetailSeparatorCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailSeparatorCell.swift; sourceTree = "<group>"; };
+		4A9C741320DEB1240010F402 /* CafeDetailMapCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeDetailMapCell.swift; sourceTree = "<group>"; };
+		4A9C741520DEB6B70010F402 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		4ABA4C1720D59329007D6148 /* UIColor+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Ext.swift"; sourceTree = "<group>"; };
+		4ABA4C1920D5954C007D6148 /* UINavigationController+Ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UINavigationController+Ext.swift"; sourceTree = "<group>"; };
+		4ADC339020AC03BB0083ACB9 /* Cafegram2EN.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cafegram2EN.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4ADC339320AC03BB0083ACB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4ADC339820AC03BB0083ACB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4ADC339A20AC03BB0083ACB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4ADC339D20AC03BB0083ACB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4ADC339F20AC03BB0083ACB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4ADC33A520AC050B0083ACB9 /* CafeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeTableViewController.swift; sourceTree = "<group>"; };
+		4ADC33A720AC0B1C0083ACB9 /* CafeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CafeTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4ADC338D20AC03BB0083ACB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A9C741020DEADC80010F402 /* MapKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4A42203B20C7EF8D00CFBF02 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC33A520AC050B0083ACB9 /* CafeTableViewController.swift */,
+				4A99541520C004EA00B377A9 /* CafeDetailViewController.swift */,
+				4A9C741520DEB6B70010F402 /* MapViewController.swift */,
+				4A6A5AA120E4CD7E009DB51C /* ReviewViewController.swift */,
+				4A26C84620EE141A009B3BE4 /* NewCafeController.swift */,
+				4A3F49FE20FD2F0F0051BA91 /* WalkthroughContentViewController.swift */,
+				4A3F4A0020FD30CA0051BA91 /* WalkthroughPageViewController.swift */,
+				4A3F4A0220FD34500051BA91 /* WalkthroughViewController.swift */,
+				4A938C67211A0BB5006AEECF /* AboutTableViewController.swift */,
+				4A938C69211A0FEE006AEECF /* WebViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		4A42203C20C7EFA500CFBF02 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC33A720AC0B1C0083ACB9 /* CafeTableViewCell.swift */,
+				4A47FB1C20CD9C1D00D50706 /* CafeDetailHeaderView.swift */,
+				4A47FB1E20CDA3FC00D50706 /* CafeDetailIconTextCell.swift */,
+				4A47FB2020CDA57C00D50706 /* CafeDetailTextCell.swift */,
+				4A9C741120DEB08B0010F402 /* CafeDetailSeparatorCell.swift */,
+				4A9C741320DEB1240010F402 /* CafeDetailMapCell.swift */,
+				4A26C84420EE1245009B3BE4 /* RoundedTextField.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4A42203D20C7EFB500CFBF02 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				4A42203920C7EB5900CFBF02 /* Cafe.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4A42203E20C7EFC800CFBF02 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC339C20AC03BB0083ACB9 /* LaunchScreen.storyboard */,
+				4ADC339720AC03BB0083ACB9 /* Main.storyboard */,
+				4A3F49FC20FD26470051BA91 /* Onboarding.storyboard */,
+				4A18ED8321071157002BDEA7 /* About.storyboard */,
+				4A18ED86210711B4002BDEA7 /* Discover.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		4A47FB0420CD94A500D50706 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4A47FB0520CD94BC00D50706 /* Fonts */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4A47FB0520CD94BC00D50706 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A47FB0C20CD94DE00D50706 /* OFL.txt */,
+				4A47FB0E20CD94DE00D50706 /* Rubik-Black.ttf */,
+				4A47FB0620CD94DE00D50706 /* Rubik-BlackItalic.ttf */,
+				4A47FB0D20CD94DE00D50706 /* Rubik-Bold.ttf */,
+				4A47FB0820CD94DE00D50706 /* Rubik-BoldItalic.ttf */,
+				4A47FB0F20CD94DE00D50706 /* Rubik-Italic.ttf */,
+				4A47FB0920CD94DE00D50706 /* Rubik-Light.ttf */,
+				4A47FB0B20CD94DE00D50706 /* Rubik-LightItalic.ttf */,
+				4A47FB1020CD94DE00D50706 /* Rubik-Medium.ttf */,
+				4A47FB0720CD94DE00D50706 /* Rubik-MediumItalic.ttf */,
+				4A47FB0A20CD94DE00D50706 /* Rubik-Regular.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		4A9C740E20DEADC80010F402 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A9C740F20DEADC80010F402 /* MapKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4ABA4C1620D5930B007D6148 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA4C1720D59329007D6148 /* UIColor+Ext.swift */,
+				4ABA4C1920D5954C007D6148 /* UINavigationController+Ext.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4ADC338720AC03BB0083ACB9 = {
+			isa = PBXGroup;
+			children = (
+				4ADC339220AC03BB0083ACB9 /* Cafegram2EN */,
+				4ADC339120AC03BB0083ACB9 /* Products */,
+				4A9C740E20DEADC80010F402 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4ADC339120AC03BB0083ACB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4ADC339020AC03BB0083ACB9 /* Cafegram2EN.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4ADC339220AC03BB0083ACB9 /* Cafegram2EN */ = {
+			isa = PBXGroup;
+			children = (
+				4ABA4C1620D5930B007D6148 /* Extensions */,
+				4A47FB0420CD94A500D50706 /* Resources */,
+				4A42203E20C7EFC800CFBF02 /* Storyboard */,
+				4A42203D20C7EFB500CFBF02 /* Model */,
+				4A42203C20C7EFA500CFBF02 /* View */,
+				4A42203B20C7EF8D00CFBF02 /* Controller */,
+				4ADC339A20AC03BB0083ACB9 /* Assets.xcassets */,
+				4ADC339F20AC03BB0083ACB9 /* Info.plist */,
+				4ADC339320AC03BB0083ACB9 /* AppDelegate.swift */,
+				4A5C021620F3E3030082984F /* Cafegram2EN.xcdatamodeld */,
+			);
+			path = Cafegram2EN;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4ADC338F20AC03BB0083ACB9 /* Cafegram2EN */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4ADC33A220AC03BB0083ACB9 /* Build configuration list for PBXNativeTarget "Cafegram2EN" */;
+			buildPhases = (
+				4ADC338C20AC03BB0083ACB9 /* Sources */,
+				4ADC338D20AC03BB0083ACB9 /* Frameworks */,
+				4ADC338E20AC03BB0083ACB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cafegram2EN;
+			productName = Cafegram2EN;
+			productReference = 4ADC339020AC03BB0083ACB9 /* Cafegram2EN.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4ADC338820AC03BB0083ACB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Farukh IQBAL";
+				TargetAttributes = {
+					4ADC338F20AC03BB0083ACB9 = {
+						CreatedOnToolsVersion = 9.2;
+						LastSwiftMigration = 1000;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 4ADC338B20AC03BB0083ACB9 /* Build configuration list for PBXProject "Cafegram2EN" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4ADC338720AC03BB0083ACB9;
+			productRefGroup = 4ADC339120AC03BB0083ACB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4ADC338F20AC03BB0083ACB9 /* Cafegram2EN */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4ADC338E20AC03BB0083ACB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A47FB1820CD94DE00D50706 /* Rubik-Bold.ttf in Resources */,
+				4A47FB1720CD94DE00D50706 /* OFL.txt in Resources */,
+				4A18ED8521071157002BDEA7 /* About.storyboard in Resources */,
+				4ADC339E20AC03BB0083ACB9 /* LaunchScreen.storyboard in Resources */,
+				4A47FB1520CD94DE00D50706 /* Rubik-Regular.ttf in Resources */,
+				4A47FB1320CD94DE00D50706 /* Rubik-BoldItalic.ttf in Resources */,
+				4A47FB1620CD94DE00D50706 /* Rubik-LightItalic.ttf in Resources */,
+				4A3F49FD20FD26470051BA91 /* Onboarding.storyboard in Resources */,
+				4A18ED87210711B4002BDEA7 /* Discover.storyboard in Resources */,
+				4A47FB1920CD94DE00D50706 /* Rubik-Black.ttf in Resources */,
+				4ADC339B20AC03BB0083ACB9 /* Assets.xcassets in Resources */,
+				4A47FB1220CD94DE00D50706 /* Rubik-MediumItalic.ttf in Resources */,
+				4A47FB1120CD94DE00D50706 /* Rubik-BlackItalic.ttf in Resources */,
+				4A47FB1A20CD94DE00D50706 /* Rubik-Italic.ttf in Resources */,
+				4A47FB1420CD94DE00D50706 /* Rubik-Light.ttf in Resources */,
+				4ADC339920AC03BB0083ACB9 /* Main.storyboard in Resources */,
+				4A47FB1B20CD94DE00D50706 /* Rubik-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4ADC338C20AC03BB0083ACB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4ADC33A820AC0B1C0083ACB9 /* CafeTableViewCell.swift in Sources */,
+				4A938C6A211A0FEE006AEECF /* WebViewController.swift in Sources */,
+				4ADC33A620AC050B0083ACB9 /* CafeTableViewController.swift in Sources */,
+				4A6A5AA220E4CD7E009DB51C /* ReviewViewController.swift in Sources */,
+				4A47FB2120CDA57C00D50706 /* CafeDetailTextCell.swift in Sources */,
+				4A99541620C004EA00B377A9 /* CafeDetailViewController.swift in Sources */,
+				4A47FB1F20CDA3FD00D50706 /* CafeDetailIconTextCell.swift in Sources */,
+				4A47FB1D20CD9C1D00D50706 /* CafeDetailHeaderView.swift in Sources */,
+				4A5C021820F3E3030082984F /* Cafegram2EN.xcdatamodeld in Sources */,
+				4A9C741620DEB6B70010F402 /* MapViewController.swift in Sources */,
+				4A3F4A0320FD34500051BA91 /* WalkthroughViewController.swift in Sources */,
+				4ABA4C1A20D5954C007D6148 /* UINavigationController+Ext.swift in Sources */,
+				4A938C68211A0BB5006AEECF /* AboutTableViewController.swift in Sources */,
+				4ABA4C1820D59329007D6148 /* UIColor+Ext.swift in Sources */,
+				4A42203A20C7EB5900CFBF02 /* Cafe.swift in Sources */,
+				4ADC339420AC03BB0083ACB9 /* AppDelegate.swift in Sources */,
+				4A9C741420DEB1240010F402 /* CafeDetailMapCell.swift in Sources */,
+				4A26C84520EE1245009B3BE4 /* RoundedTextField.swift in Sources */,
+				4A3F49FF20FD2F0F0051BA91 /* WalkthroughContentViewController.swift in Sources */,
+				4A9C741220DEB08B0010F402 /* CafeDetailSeparatorCell.swift in Sources */,
+				4A26C84720EE141A009B3BE4 /* NewCafeController.swift in Sources */,
+				4A3F4A0120FD30CA0051BA91 /* WalkthroughPageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4A18ED8321071157002BDEA7 /* About.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A18ED8421071157002BDEA7 /* Base */,
+			);
+			name = About.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADC339720AC03BB0083ACB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADC339820AC03BB0083ACB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4ADC339C20AC03BB0083ACB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4ADC339D20AC03BB0083ACB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4ADC33A020AC03BB0083ACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4ADC33A120AC03BB0083ACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4ADC33A320AC03BB0083ACB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Cafegram2EN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ibrahim-Mo-Gedami.Cafegram2EN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4ADC33A420AC03BB0083ACB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = Cafegram2EN/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Ibrahim-Mo-Gedami.Cafegram2EN";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4ADC338B20AC03BB0083ACB9 /* Build configuration list for PBXProject "Cafegram2EN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC33A020AC03BB0083ACB9 /* Debug */,
+				4ADC33A120AC03BB0083ACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4ADC33A220AC03BB0083ACB9 /* Build configuration list for PBXNativeTarget "Cafegram2EN" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4ADC33A320AC03BB0083ACB9 /* Debug */,
+				4ADC33A420AC03BB0083ACB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4A5C021620F3E3030082984F /* Cafegram2EN.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4A5C021720F3E3030082984F /* Cafegram2EN.xcdatamodel */,
+			);
+			currentVersion = 4A5C021720F3E3030082984F /* Cafegram2EN.xcdatamodel */;
+			path = Cafegram2EN.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 4ADC338820AC03BB0083ACB9 /* Project object */;
+}
